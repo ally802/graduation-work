@@ -1,0 +1,53 @@
+/* header */
+#header{height:107px;background:#fff}
+header{font-size:30px;width:100%;margin:0 auto;padding:0 30px;background-color:#fff;position:fixed;z-index:100}
+.header-logo{margin:4px 0 11px}
+nav{display:inline-block;float:left}
+nav{text-align:center;float:right}
+nav a{color:#000000;text-decoration:none;padding:33px 30px;display:inline-block;font-size:22px;font-weight:initial;font-family:'Noto Sans KR',sans-serif;line-height:40px}
+nav a:hover{border-bottom:3px solid #282a35;padding-bottom:31px;color:#000000}
+.shadow {box-shadow:0 .3rem 1rem rgba(0,0,0,.05)!important}
+
+body{position:relative}
+
+/* side-text */
+.side-txt{position:absolute;width:25%;height:calc(100% - (107px + 640px + 585px));z-index:1;transform: translateY(calc(100vh-(107px - 640px)));right:0;overflow:hidden}
+.txt{position:absolute;right:2rem;writing-mode:vertical-rl;white-space:nowrap;font-size:15.2vw;font-family:'Roboto', sans-serif;font-weight:bold;color:#000;opacity:.12}
+
+/* main-container */
+.content{background:#fff;overflow:hidden}
+
+/* content-tit */
+.tit{margin:3vw 0 4vw;text-align:center;font-size:2.6vw;font-family:'Noto Sans KR',sans-serif}
+
+/* main-banner */
+.main-visual{z-index:2}
+
+/* banner */
+.bannerimg{width:100%;height:28.4vw;margin-bottom:5vw;position:relative;z-index:2}
+.bannerimg img{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);width:100%}
+
+/* text-scroll */
+.ezkorry-roller{overflow:hidden;white-space:nowrap;font-family:'Roboto', sans-serif;font-weight:700}
+.ezkorry-roller span::after{padding:0 10px}
+.ezkorry-roller span{position:relative;font-size:15.2vw}
+
+/* .card-container */
+.card-container{margin-bottom:2vw;display:flex;justify-content:space-evenly}
+
+/* 3-card */
+.post-card-container{width:27vw;border:0.1vw solid #000}
+.post-thumb-container{height:27vw;position:relative}
+.post-thumb-container img{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);width:100%;height:auto;padding:1rem 1rem}
+.post-content-container{height:5.8vw;padding:1vw 1.7vw;border-top:0.1vw solid #000;font-family:'Noto Sans KR',sans-serif}
+.user-id-area p{margin:0;font-size:0.85vw;text-decoration:underline}
+.post-title-area p{margin:0;font-size:1.3vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+
+/* 4-card */
+.product-card-container{width:21vw;border:0.1vw solid #000}
+.product-thumb-container{height:21vw;position:relative}
+.product-thumb-container img{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);width:100%;height:auto;padding:1rem 1rem}
+.product-content-container{height:5vw;padding:0.8vw 1.2vw;border-top:0.1vw solid #000;font-family:'Noto Sans KR',sans-serif}
+.product-brand-area p{margin:0;font-size:1vw;text-decoration:underline}
+.product-name-area p{margin:0;font-size:1vw}
