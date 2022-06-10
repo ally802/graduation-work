@@ -3,6 +3,7 @@
 
 ## 1. 프로젝트 개요
 이 프로젝트는 제 졸업작품으로 최근 화제가 되고 있는 리셀을 위한 플랫폼입니다. <br><br>
+프로젝트 URL : https://ally802.github.io/graduation-work/FLEX/main/index.html <br>
 벤치마킹 사이트 : https://kream.co.kr/ <br>
 디자인 안건 : https://xd.adobe.com/view/f623514c-2b12-4623-85af-2c40574eb268-a370/ <br><br>
 
